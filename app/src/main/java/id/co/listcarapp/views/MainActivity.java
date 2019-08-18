@@ -1,4 +1,4 @@
-package id.co.listcarapp;
+package id.co.listcarapp.views;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import id.co.listcarapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.list_owner) RecyclerView listOwner;
     @BindView(R.id.btn_car_info) Button btnCarInfo;
     @BindView(R.id.btn_owner_info)Button btnOwnerInfo;
     @BindView(R.id.img_car_logo) ImageView imgCarLogo;

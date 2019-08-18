@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CarInfoFragment">
+    tools:context=".views.fragments.CarInfoFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_height="120dp"
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/BMW_logo"/>
+        android:src="@drawable/bmw_logo"/>
 
     <TextView
         android:id="@+id/tv_model_car_name"
